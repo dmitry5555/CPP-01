@@ -19,4 +19,5 @@ void Zombie::randomChump(std::string name) {
 }
 
 Zombie::~Zombie() {
+	std::cout << "Destructor for: "<< name << std::endl;
 }
