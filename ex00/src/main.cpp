@@ -2,9 +2,13 @@
 
 int main()
 {
-	Zombie aZombie;
+	Zombie newZombie;
 
-	aZombie.announce();
+	newZombie.randomChump("Fooo");
+
+ 	// aZombie.announce();
+	// new Zombie =  randomChump("Foo");
+	// Zombie::randomChump();
 
 	return(0);
 }
