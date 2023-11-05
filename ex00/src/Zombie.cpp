@@ -1,7 +1,6 @@
 #include "Zombie.hpp"
 
 Zombie::Zombie() {
-	name = "BraiiiiiiinnnzzzZ...";
 }
 
 Zombie::Zombie(std::string name) {
@@ -19,5 +18,5 @@ void Zombie::randomChump(std::string name) {
 }
 
 Zombie::~Zombie() {
-	std::cout << "Destructor for: "<< name << std::endl;
+	std::cout << "Destructor" << std::endl;
 }
