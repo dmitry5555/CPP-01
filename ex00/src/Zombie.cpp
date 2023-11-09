@@ -15,6 +15,7 @@ void Zombie::announce(void) {
 void Zombie::randomChump(std::string name) {
 	Zombie* aZombie = new Zombie(name);
 	aZombie->announce();
+	delete(aZombie);
 }
 
 Zombie::~Zombie() {

@@ -8,3 +8,5 @@ ex00/src/main.o
 ex00/zombie
 ex00/src/main.o
 ex00/src/Zombie.o
+ex00/zombie.dSYM/Contents/Resources/DWARF/zombie
+ex00/zombie.dSYM/Contents/Info.plist
