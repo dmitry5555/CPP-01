@@ -10,3 +10,10 @@ ex00/src/main.o
 ex00/src/Zombie.o
 ex00/zombie.dSYM/Contents/Resources/DWARF/zombie
 ex00/zombie.dSYM/Contents/Info.plist
+ex01/src/zombieHorde.o
+ex01/zombie.dSYM/Contents/Info.plist
+ex01/zombie.dSYM/Contents/Resources/DWARF/zombie
+ex01/zombie
+ex01/src/main.o
+ex01/src/Zombie.o
+.gitignore
