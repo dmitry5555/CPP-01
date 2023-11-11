@@ -1,3 +1,4 @@
+
 .vscode/settings.json
 ex00/src/main.cpp
 ex00/src/Zombie.o
@@ -17,3 +18,6 @@ ex01/zombie
 ex01/src/main.o
 ex01/src/Zombie.o
 .gitignore
+ex03/src/HumanA.o
+ex03/cpp-01
+ex03/src/main.o

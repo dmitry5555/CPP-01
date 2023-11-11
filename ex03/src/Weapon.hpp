@@ -5,15 +5,17 @@
 #include <string>
 #include <iomanip>
 
-class Weapon {
+class Weapon
+{
 	private:
 		std::string type;
 
 	public:
-		Weapon();
+		Weapon(std::string type);
 		~Weapon();
-		const std::string& Weapon::getType*();
 
+		const std::string& getType();
+		void setType(std::string type);
 };
 
 #endif
