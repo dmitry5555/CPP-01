@@ -21,3 +21,6 @@ ex01/src/Zombie.o
 ex03/src/HumanA.o
 ex03/cpp-01
 ex03/src/main.o
+ex03/cpp01
+ex03/src/HumanB.o
+ex03/src/Weapon.o
