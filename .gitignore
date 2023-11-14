@@ -26,3 +26,12 @@ ex03/src/HumanB.o
 ex03/src/Weapon.o
 ex04/cpp01
 ex04/src/main.o
+ex02/cpp-01
+ex02/zombie
+.gitignore
+ex02/cpp-01
+ex02/zombie
+ex05/cpp01
+ex05/src/Harl.o
+ex05/src/main.o
+.gitignore
