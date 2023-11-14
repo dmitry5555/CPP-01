@@ -1,9 +1,14 @@
 #include "Harl.hpp"
 
 int main() {
-	Harl* harl = new Harl;
+	std::string s;
+	Harl harl;
 
-	harl->complain("debug");
-	harl->complain("info");
-
+	while(s != "EXIT")
+	{
+		std::cout << "enter a level: ";
+		std::getline(std::cin, s);
+		harl.complain(s);
+	}
+	return (0);
 }
