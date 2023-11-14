@@ -9,7 +9,7 @@ int main() {
 	std::string temp;
 	std::string s1;
 	std::string s2;	
-
+ 
 	s1 = "hello";
 	s2 = "bye";
 	myfile1.open("01.txt");
