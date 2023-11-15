@@ -1,4 +1,4 @@
-NAME = cpp-01
+NAME = cpp01
 
 CC = c++
 FLAGS = -std=c++98 -Wall -Wextra -Werror

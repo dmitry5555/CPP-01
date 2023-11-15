@@ -3,7 +3,6 @@
 #include "HumanB.hpp"
 
 int main() {
-
 	{
 		Weapon club = Weapon("crude spiked club");
 		HumanA bob("Bob", club);
@@ -20,5 +19,4 @@ int main() {
 		jim.attack();
 	}
 	return 0;
-
 }

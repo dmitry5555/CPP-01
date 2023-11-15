@@ -1,19 +1,18 @@
 #include "Zombie.hpp"
 
-Zombie* newZombie(std::string name) {
-	Zombie* aZombie = new Zombie(name);
-	return(aZombie);
-}
-
-void randomChump(std::string name) {
-	Zombie* aZombie = new Zombie(name);
-	aZombie->announce();
-	delete(aZombie);
-}
-
 int main() {
-	Zombie aZombie("Foo");
-	randomChump("Foo1");
+	std::cout << "Creating Zombie One on the stack" << std::endl;
+	Zombie zombie1("One");
+	zombie1.announce();
 
+	std::cout << "Creating Zombie Two on the heap" << std::endl;
+	Zombie* zombi2 = newZombie("Two");
+	zombi2->announce();
+
+
+	std::cout << "Running randomChump" << std::endl;
+	randomChump("Three");
+
+	delete(zombi2);
 	return(0);
 }

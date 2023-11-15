@@ -28,7 +28,10 @@ int main() {
 		std::getline(myfile1, s, '\0');
 		strReplace(s, s1, s2);
 		myfile2 << s;
+		std::cout << "done 🦝" << std::endl;
 	}
+	else
+		std::cout << "file error 🐞" << std::endl;
 	myfile1.close();
 	myfile2.close();
 
